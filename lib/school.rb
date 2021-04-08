@@ -15,4 +15,8 @@ attr_reader :name, :roster
     end
   end
 
+  def grade(grade)
+    self.roster[grade]
+  end 
+
 end
